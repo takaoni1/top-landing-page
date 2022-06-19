@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* align-content: center;
+    max-width: 100vh; */
+    gap: 3rem;
+}
+
+body {
+    font-family: Arvo;
+    font-size: 16px;
+}
+
+header {
+    background: #1f2937;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.navbar-link {
+    display: flex;
+    width: 40%;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.navbar-link a:visited {
+    color: #fff;
+}
+.navbar-link a:link {
+    text-decoration: none;
+}
+
+.hero-div h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-div p {
+    font-size: 18px;
+}
+
+.hero-div {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main-div {
+    width: 35%;
+    line-height: 1.2;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 500px;
+}
+
+.upper-div {
+    background-color: #fff;
+    text-align: center;
+}
+
+.upper-div h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 30px 5px 30px 5px;
+}
+
+.upper-div .upper-main-div {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper-div img {
+    max-width: 350px;
+    border-radius: 10px;
+    /* width:  200px;
+    height: 200px; */
+    object-fit: cover;
+}
+
+.upper-div  p {
+    width: 300px;
+}
+
+.middle-div {
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.middle-div .middle-main-div {
+    display: flex;
+    margin: auto;
+    width: 45%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-top: 100px;
+}
+
+.middle-div .middle-end-div {
+    text-align: end;
+    padding-right: 700px;
+}
+
+.lower-div {
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    width: 45%;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-div .lower-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 30px 50px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #1f2937;
+    min-height: 80px;
+}
+
+.footer .footer-main {
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 30px;
+}
